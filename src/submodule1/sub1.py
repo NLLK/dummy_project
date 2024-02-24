@@ -16,6 +16,7 @@ class TestClass1:
 
     @staticmethod
     def staticReturnTrue():
+        return False
         return True
 
     @staticmethod
