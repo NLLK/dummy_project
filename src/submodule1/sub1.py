@@ -6,6 +6,7 @@ class TestClass1:
         pass
 
     def __init__(self):
+        self.aboba = 'aaa'
         pass
 
     def returnTrue(self):
@@ -16,7 +17,7 @@ class TestClass1:
 
     @staticmethod
     def staticReturnTrue():
-        return False
+        return bool(0 == 0)
         return True
 
     @staticmethod
