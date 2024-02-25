@@ -1,9 +1,17 @@
 class TestClass1:
 
+    #some stupid if
+    if '' == '' :
+        aboba = 'a'
+
+
     class Subclass:
         def alwaysTrue(self):
+            pass
             return True
         pass
+
+    aboba = ''
 
     def __init__(self):
         self.aboba = 'aaa'
