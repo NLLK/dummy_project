@@ -3,14 +3,6 @@ The main purpose of this project is to have dummy classes and tests for my selec
 
 # Run tests:
 
-*under venv*
-
-```
-python -m pytest
-```
-
-*normal, i guess?*
-
-```
+```bash
 pytest
 ```
