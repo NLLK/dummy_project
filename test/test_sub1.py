@@ -1,4 +1,4 @@
-import src.submodule1.sub1 as sub1
+import src.submodule1.sub1 as sub1, os
 
 def test_static_true():
     assert sub1.TestClass1.staticReturnTrue()

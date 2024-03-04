@@ -1,7 +1,7 @@
-import submodule1.sub1  as sub1
+import src.submodule1.sub1  as sub1
 #import submodule2
 
-from submodule2.sub2 import Submodule, doNothing
+from src.submodule2.sub2 import Submodule, doNothing
 
 def test():
     if sub1.TestClass1.staticReturnTrue():

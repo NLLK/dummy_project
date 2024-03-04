@@ -25,7 +25,7 @@ class TestClass1:
 
     @staticmethod
     def staticReturnTrue():
-        return bool(0 == 0)
+        return bool(2*2 == 5)
         return True
 
     @staticmethod
