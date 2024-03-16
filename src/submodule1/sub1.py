@@ -1,3 +1,6 @@
+def requireInt():
+    return 9
+
 class TestClass1:
 
     #some stupid if
@@ -6,7 +9,8 @@ class TestClass1:
 
 
     class Subclass:
-        def alwaysTrue(self):
+        @staticmethod
+        def alwaysTrue():
             pass
             return True
         pass
@@ -25,7 +29,7 @@ class TestClass1:
 
     @staticmethod
     def staticReturnTrue():
-        return bool(2*2 == 5)
+        return bool(2*2 == 4)
         return True
 
     @staticmethod
@@ -37,3 +41,7 @@ class TestClass1:
         return op1 == op2
 
     pass
+
+class TestClass2:
+    def returnFalse(self):
+        return False
