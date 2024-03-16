@@ -22,7 +22,7 @@ class TestClass1:
         pass
 
     def returnTrue(self):
-        return True
+        return False
 
     def returnFalse(self):
         return False

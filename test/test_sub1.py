@@ -18,7 +18,7 @@ def test_true_obj():
     assert value
 
 def test_false_obj():
-    if 0==0:
+    if 0==1:
         obj = sub1.TestClass1()
     else:
         obj = sub1.TestClass2()
